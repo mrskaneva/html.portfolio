@@ -1,0 +1,198 @@
+h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2em; /* Slightly smaller than h1 */
+    color: rgb(129, 130, 131);
+}
+
+
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+
+
+
+.hi{
+    text-align: center;
+}
+   
+
+.main {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    opacity: 0.8;
+    display: inline-block;
+    color: rgb(129, 130, 131);
+}
+
+.about-h1{
+  margin-bottom: 5rem ;
+}
+
+p {
+    color: rgb(129, 130, 131);
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.skills-h1{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.projects-h1{
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+
+
+/* styles.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    height: 80px;
+    margin-bottom: 5%;
+    
+}
+
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  nav .logo {
+    height: 60px; /* Adjust logo size */
+    margin-right: 20px; /* Adjust space between logo and navigation items */
+  }
+  
+  nav ul {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: 300;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(129, 130, 131);
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #ddd;
+  }
+
+/** ABOUT ME **/
+
+.about-me {
+    text-align: left;
+    margin: 0 10%;
+    padding: 20px;
+    line-height: 1.6; /* Makes text more readable */
+}
+
+.cat-img {
+    margin: 20px auto; /* Centers the image horizontally with some margin */
+    display: block;
+    max-width: 100%; /* Ensures image is responsive */
+    height: auto;
+}
+
+
+.container {
+    height: auto; /* Let the container grow with content */
+    max-height: 100vh; /* Limit the height if necessary */
+    overflow-y: scroll;
+  }
+  
+  .logo{
+    opacity: 0.5;
+  }
+.contact-img{
+  display: flex;
+  justify-content: center;
+}
+footer{
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.about-p{
+  margin-bottom: 50px;
+}
+
+/* For the container wrapping the two lists */
+.container {
+  display: flex; /* Use Flexbox to align items horizontally */
+  gap: 20px; /* Adds space between the two lists */
+  flex-wrap: wrap; /* Allows the items to wrap if the container is too small */
+}
+
+/* Optional: Style for the individual list containers (list-1 and list-2) */
+.list-1, .list-2, .list-3 {
+  flex: 1; /* Ensures each list takes up an equal amount of space */
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes padding */
+}
+
+ul li {
+  margin-bottom: 10px; /* Adds space between list items */
+}
+.contact-img{
+  width :50%;
+  height: auto;
+}
+.contact{
+  display: flex;
+}
+.p-contact{
+  margin-top: 5rem;
+}
+.contact-h1{
+margin-top: 5rem;
+}
+
+.hobbies{
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+}
+.hobbies-img{
+  display: block;
+  width: 60%;
+
+}
+.hobbies-h3{
+  margin: 3rem;
+}
